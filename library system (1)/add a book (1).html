@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Add a new book to the system</title>
+  <link rel="stylesheet" type="text/css" href="librarysystem.css">
+  <script src="addBook.js"></script>
+</head>
+
+<body style="background-color: rgb(206, 206, 206)">
+  <rect class="toprect"></rect>
+  <h2 class="toptext" align="center">
+    Input the information to add a new book to the system
+  </h2>
+  <form class="addform" id="addbook">
+    Book Name:
+    <input type="text" size="40" placeholder="ex. The very hungry caterpillar" name="titleL" required />
+    <br />
+    <br />
+    Book Number:
+    <input type="text" placeholder="ex. 800626" name="bookNumL" required />
+    <br />
+    <br />
+    Author Name:
+    <input type="text" placeholder="ex. J.K. Rowling" name="authorL" required />
+    <br />
+    <br />
+    Book Type:
+    <br />
+    <div class="type">
+      <input type="radio" id="booktype" name="bookTypeL" value="fiction" />
+      <label for="fiction">Fiction</label>
+      <br />
+      <input type="radio" id="booktype" name="bookTypeL" value="non-fiction" />
+      <label for="NonFiction">Non-Fiction</label>
+      <br />
+      <input type="radio" id="booktype" name="bookTypeL" value="graphic-novel" />
+      <label for="graphic-novel">Graphic Novel</label>
+    </div>
+    <br />
+    <br />
+    Publication Date:
+    <select name="Publication Date" id="Publication Date" name="pubDateL">
+      <option>Before 2000</option>
+      <option>2001-2005</option>
+      <option>2006-2010</option>
+      <option>2011-2015</option>
+      <option>2016-2020</option>
+      <option>2021-2025</option>
+    </select>
+    <br />
+    <br />
+    Genre:
+    <select name="Genre" id="Genre" name="genreL">
+      <option>Comedy</option>
+      <option>Action</option>
+      <option>Horror</option>
+    </select>
+    <br />
+    <br />
+    Image of Book Cover:
+    <input type="file" accept="image/*" name="coverL" required />
+    <br />
+    <br />
+    <input type="submit" value="Cancel Request" />
+    <input type="submit" value="Add Book" onclick="addNewBook(this.form)" />
+
+  </form>
+  <div class="logout">
+    <input type="submit" value="Logout" />
+  </div>
+  <div class="homepage">
+    <input type="submit" value="Homepage" />
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" type="text/css" href="librarysystem.css" />
+
+<head>
+  <title>Search for a Book</title>
+</head>
+
+<body style="background-color: rgb(206, 206, 206)">
+  <rect class="toprect"></rect>
+  <h2 class="toptext" align="center">
+    Input the information to search for a Book
+  </h2>
+
+  <div class="addform">
+    Book Name:
+    <input type="text" size="40" placeholder="ex. The very hungry caterpillar" required />
+    <br />
+    <br />
+    Book Number:
+    <input type="text" placeholder="ex. 800626" />
+    <br />
+    <br />
+    Author Name:
+    <input type="text" placeholder="ex. J.K. Rowling" />
+    <br />
+    <br />
+    Book Type:
+    <br />
+    <input type="radio" id="booktype" name="booktype" value="fiction" />
+    <label for="fiction">Fiction</label>
+    <br />
+    <input type="radio" id="booktype" name="booktype" value="non-fiction" />
+    <label for="NonFiction">Non-Fiction</label>
+    <br />
+    <input type="radio" id="booktype" name="booktype" value="graphic-novel" />
+    <label for="graphic-novel">Graphic Novel</label>
+    <br />
+    <br />
+    Publication Date:
+    <select name="Publication Date" id="Publication Date">
+      <option>Before 2000</option>
+      <option>2001-2005</option>
+      <option>2006-2010</option>
+      <option>2011-2015</option>
+      <option>2016-2020</option>
+      <option>2021-2025</option>
+    </select>
+    <br />
+    <br />
+    Genre:
+    <select name="Genre" id="Genre">
+      <option>Comedy</option>
+      <option>Action</option>
+      <option>Horror</option>
+    </select>
+    <br />
+    <br />
+    <input type="submit" value="Cancel Request" />
+    <input type="submit" value="Add Book" />
+  </div>
+  <div class="logout">
+    <input type="submit" value="Logout" />
+  </div>
+  <div class="homepage">
+    <input type="submit" value="Homepage" />
+  </div>
+</body>
+
+</html>
