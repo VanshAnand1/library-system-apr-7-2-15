@@ -3,9 +3,7 @@
     border-radius: 300px;
     float: left;
     margin-left: 250px;
-    margin-top: 125px;
-
-
+    margin-top: 125px
 }
 
 .sorry {
@@ -149,4 +147,74 @@ body {
     top: 800px;
     font-size: 36px;
     font-weight: 800;
+}
+
+.addbook {
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    width: 400px;
+    height: 150px;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.checkbook {
+    position: absolute;
+    top: 500px;
+    left: 400px;
+    width: 400px;
+    height: 150px;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.returnbook {
+    position: absolute;
+    top: 500px;
+    left: 1100px;
+    width: 400px;
+    height: 150px;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.delbook {
+    position: absolute;
+    top: 200px;
+    left: 1100px;
+    width: 400px;
+    height: 150px;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.searchbook {
+    position: absolute;
+    top: 300px;
+    left: 1100px;
+    width: 400px;
+    height: 150px;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.studprofile {
+    position: absolute;
+    background: lightgray;
+    opacity: 77%;
+    width: 700px;
+    height: 700px;
+    top: 200px;
+    left: 200px;
+}
+
+.studentprofiletitle {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.studentprofile {
+    font-size: 20px;
+    font-weight: 500;
 }

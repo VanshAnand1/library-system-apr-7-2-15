@@ -1,8 +1,3 @@
-/*
-function test() {
-    alert('The book has been added!');
-}
-*/
 
 let newBookTitle;
 let newBookNum;
@@ -12,16 +7,16 @@ let newBookPub;
 let newBookGenre;
 
 function addNewBook(addBook) {
-    let newBookNum = addbook.bookNumL.value;
+    let newBookNum = addBook.bookNumL.value;
     alert(newBookNum);
-    let newBookTitle = addbook.titleL.value;
+    let newBookTitle = addBook.titleL.value;
     alert(newBookTitle);
-    let newBookAuthor = addbook.bookNumL.value;
+    let newBookAuthor = addBook.bookNumL.value;
     alert(newBookAuthor);
-    let newBookType = addbook.authorL.value;
+    let newBookType = addBook.authorL.value;
     alert(newBookType);
-    let newBookPub = addbook.bookTypeL.value;
+    let newBookPub = addBook.bookTypeL.value;
     alert(newBookPub);
-    let newBookGenre = addbook.pubDateL.value;
+    let newBookGenre = addBook.pubDateL.value;
     alert(newBookGenre);
 }
